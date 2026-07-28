@@ -10,7 +10,7 @@
 
 **A lightweight Chromium extension that tracks the latest releases of selected Chromium-based browsers hosted on GitHub and compares them with your installed browser version.**
 
-Designed to be simple, fast, and privacy-friendly.
+*Designed to be simple, fast, and privacy-friendly.*
 
 </div>
 
