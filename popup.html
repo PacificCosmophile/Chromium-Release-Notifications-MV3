@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chromium Updates</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- FIRST RUN SETUP SCREEN -->
+    <!-- ========================= -->
+
+    <div id="setupScreen">
+
+        <h1>Chromium Release Notifications</h1>
+
+        <p class="subtitle">
+            Welcome! Choose the browser you want to track.
+        </p>
+
+        <div class="row">
+            <label for="platformSelect">Platform</label>
+
+            <select id="platformSelect">
+                <option value="">Choose platform</option>
+                <option value="win64">Windows 64</option>
+                <option value="win32">Windows 32</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label for="repositorySelect">Repository</label>
+
+            <select id="repositorySelect" disabled>
+                <option value="">Choose platform first</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!-- ========================= -->
+    <!-- DASHBOARD -->
+    <!-- ========================= -->
+
+    <div id="dashboardScreen" hidden>
+
+        <h1>Chromium Release Notifications</h1>
+
+        <div class="info">
+
+            <div class="row">
+                <span class="field-label">Repository</span>
+                <a id="repositoryName" class="tracking-name" href="#" target="_blank" rel="noopener noreferrer">
+                    —
+                </a>
+            </div>
+
+            <div class="row">
+                <span class="field-label">Platform</span>
+                <strong id="platformName">—</strong>
+            </div>
+
+            <div class="row">
+                <span class="field-label">Installed version</span>
+                <strong id="installedVersion">—</strong>
+            </div>
+
+            <div class="row">
+                <span class="field-label">Latest version</span>
+
+                <a id="latestVersion" class="tracking-name" href="#" target="_blank" rel="noopener noreferrer">
+                    —
+                </a>
+            </div>
+
+            <div class="row">
+                <span class="field-label">Status</span>
+                <strong id="statusText" class="status checking">
+                    Checking…
+                </strong>
+            </div>
+
+        </div>
+
+        <div id="chromiumError" class="error-text"></div>
+
+        <div class="settings-panel">
+
+            <div class="row">
+                <label for="dashboardPlatformSelect">Platform</label>
+
+                <select id="dashboardPlatformSelect">
+                    <option value="">Choose platform</option>
+                    <option value="win64">Windows 64</option>
+                    <option value="win32">Windows 32</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="dashboardRepositorySelect">Repository</label>
+
+                <select id="dashboardRepositorySelect" disabled>
+                    <option value="">Choose platform first</option>
+                </select>
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div id="lastUpdate">
+                Last checked: —
+            </div>
+
+            <button id="checkNowBtn" class="btn">
+                Check now
+            </button>
+
+        </footer>
+
+    </div>
+
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
