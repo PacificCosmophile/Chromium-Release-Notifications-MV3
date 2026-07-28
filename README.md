@@ -54,7 +54,7 @@ No additional permissions are requested.
 | [Helium](https://github.com/imputnet/helium-windows) | Release notes |
 | [Supermium](https://github.com/win32ss/supermium) | Release name |
 | [Thorium](https://github.com/Alex313031/Thorium-Win) | Git tag |
-| [Ungoogled Chromium](https://github.com/macchrome/winchrome) | Release Git tag |
+| [Ungoogled Chromium](https://github.com/macchrome/winchrome) | Git tag |
 
 ---
 
