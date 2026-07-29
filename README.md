@@ -153,7 +153,7 @@ The same `.pem` must be used for future releases to preserve the extension ID.
 
 ## Acknowledgements
 
-This project was inspired by the original **[Chromium Notifier](https://github.com/kkkrist/chromium-notifier)** extension created by **[kkkrist](https://github.com/kkkrist)**.
+This project is inspired by the original **[Chromium Notifier](https://github.com/kkkrist/chromium-notifier)** extension created by **[kkkrist](https://github.com/kkkrist)**.
 
 While this extension has been completely rewritten for **Manifest V3** with a redesigned interface, simplified architecture, and support for multiple Chromium-based browser projects, the original project served as the initial inspiration.
 
