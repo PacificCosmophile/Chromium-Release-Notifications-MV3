@@ -75,7 +75,9 @@ The extension:
 
 Automatic checks run every hour. You can also perform a manual check at any time from the popup.
 
-GitHub limits API calls at 60 requests/hour/IP. That can be increased using Fine-Grained Personal access tokens.
+GitHub limits API calls at 60 requests/hour/IP. Which is more than enough for a normal user.
+
+But if you want (for development puposes) you can increase the limit using Fine-Grained Personal access tokens.
 
 Create a token >>> <br>
 GitHub settings > Developer settings > Personal access tokens > Fine grain tokens > Generate a new toke
