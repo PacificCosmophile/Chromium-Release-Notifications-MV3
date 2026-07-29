@@ -86,7 +86,7 @@ Insert the token in `background.js` >>>
 
 ```bash
 // Optional GitHub Personal Access Token.
-// Leave empty to use GitHub's public API (60 requests/hour).
+// Leave empty to use GitHub public API (60 requests/hour).
 // Add your own Fine-grained Personal Access Token here to increase the limit to 5,000 requests/hour.
 const GITHUB_PAT = "your-token";
 ```
