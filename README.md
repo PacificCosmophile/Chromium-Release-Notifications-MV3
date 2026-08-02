@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/icon.png" width="128" alt="Chromium Release Notifications MV3">
+<img src="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/assets/icon.png" width="128" alt="Chromium Release Notifications MV3">
 
 # Chromium Release Notifications
 
