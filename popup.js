@@ -197,17 +197,18 @@ async function renderAll(pushedState) {
     }
 
     document.getElementById("lastUpdate").textContent =
-        lastCheck ?
-        "Last checked: " +
-        new Intl.DateTimeFormat("en-GB", {
-            day: "2-digit",
-            month: "short",
-            year: "numeric",
-            hour: "numeric",
-            minute: "2-digit",
-            hour12: true
-        }).format(new Date(lastCheck)).replace(",", "") :
-        "Last checked: —";
+    lastCheck
+        ? "Last checked: " +
+          new Intl.DateTimeFormat("en-GB", {
+              weekday: "short",
+              day: "numeric",
+              month: "short",
+              year: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+              hour12: true
+          }).format(new Date(lastCheck))
+        : "Last checked: —";
 
     if (settings) {
 
