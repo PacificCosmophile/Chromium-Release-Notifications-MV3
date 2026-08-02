@@ -32,13 +32,11 @@
     align-items: center;
     justify-content: center;
     opacity: 0.8;
-    transition: transform 0.18s ease, opacity 0.18s ease, filter 0.18s ease;
+    transition: opacity .15s ease;
 }
 
 #githubLink:hover {
     opacity: 1;
-    transform: scale(1.06);
-    filter: drop-shadow(0 0 2px rgba(15, 191, 62, 0.5));
 }
 
 #githubLink img {
