@@ -16,11 +16,43 @@
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>🔔 Fresh Install Interface</b>
+      <br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_1_dark.png">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_1_light.png">
+        <img alt="Main Interface" src="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_1_dark.png" width="100%">
+      </picture>
+    </td>
+    <td align="center" width="50%">
+      <b>⚙️ Dashboard & Settings</b>
+      <br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_2_dark.png">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_2_light.png">
+        <img alt="Detailed View" src="https://raw.githubusercontent.com/PacificCosmophile/Chromium-Release-Notifications-MV3/main/screenshots/ss_2_dark.png" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## Installation
 
 ### From Source
 
-1. Download or clone this repository.
+1. Download (Green Code Dropdown button > Download ZIP) or clone this repository ```git clone https://github.com/PacificCosmophile/Chromium-Release-Notifications-MV3.git```
+
 2. Unzip it.
 3. Open your Chromium-based browser.
 4. Navigate to `chrome://extensions`.
