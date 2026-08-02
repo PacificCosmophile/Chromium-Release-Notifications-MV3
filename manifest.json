@@ -4,7 +4,7 @@
   "short_name": "Chromium Updates",
   "version": "1.1",
   "version_name": "1.1 (MV3)",
-  "description": "Tracks the latest releases of Chromium-based browsers hosted on GitHub.",
+  "description": "Tracks latest releases of Chromium-based browsers hosted on GitHub.",
   "minimum_chrome_version": "116",
   "permissions": [
     "storage",
