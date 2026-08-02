@@ -51,7 +51,7 @@
 
 ### From Source
 
-1. Download (Green Code Dropdown button > Download ZIP) or clone this repository ```git clone https://github.com/PacificCosmophile/Chromium-Release-Notifications-MV3.git```
+1. Download (Green <> Code Dropdown button >> Download ZIP) or clone this repository ```git clone https://github.com/PacificCosmophile/Chromium-Release-Notifications-MV3.git```
 
 2. Unzip it.
 3. Open your Chromium-based browser.
