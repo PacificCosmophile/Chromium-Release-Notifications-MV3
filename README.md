@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Chromium-34a853)](https://www.chromium.org/Home/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-**A lightweight Chromium extension that tracks the latest releases of selected Chromium-based browsers hosted on GitHub and compares them with your installed browser version.**
+**A lightweight Chromium extension that tracks latest releases of selected Chromium-based browsers hosted on GitHub and compares them with your installed browser version.**
 
 *Designed to be simple, fast, and privacy-friendly.*
 
